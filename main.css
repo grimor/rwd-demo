@@ -1,0 +1,78 @@
+.logo {
+	float: left;
+}
+.demo .navigation {
+	padding: 20px 20px;
+}
+.menu {
+	float: right;
+	position: relative;
+}
+.menu ul.h--nav-list {
+	display: block;
+	margin: 0;
+}
+
+.menu ul li {
+	float: left;
+}
+.menu h2 {
+	margin: 0;
+	font-family: 'Exo';
+}
+
+.menu a.menu-button {
+	text-align: left;
+	display: block;
+	padding: 0.8em;
+	color: white;
+	background: #333333;
+	text-decoration: none;
+	display: none;
+	top: 0px;
+}
+.menu a.menu-button:hover {
+	background: #4d4d4d;
+}
+
+.features {
+	list-style-type: none;
+}
+.features li {
+	display: block;
+	padding: 10px;
+}
+
+@media (max-width: 800px) {
+	.logo { float: none; }
+	.menu {
+		position: relative;
+		float: none;
+		width: 100%;
+	}
+	.menu ul.h--nav-list {
+		display:none;
+		margin:0;
+		position: absolute;
+		width: 100%;
+		top:70px;
+
+	}
+	.menu ul li {
+		float: none;
+	}
+	.menu a.menu-button {
+		text-align: left;
+		display: block;
+		padding: 0.8em;
+		color: white;
+		background: #333333;
+		text-decoration: none;
+		display: block;
+		top: 0px;
+
+	}
+	.menu a.menu-button:hover {
+		background: #4d4d4d;
+	}
+}

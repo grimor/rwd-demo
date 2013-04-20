@@ -16,8 +16,10 @@ img{
 }
 
 .demo section{
-    width: 100%;
-    min-height: 150px;
+  width: 100%;
+  min-height: 150px;
+  box-sizing: border-box;
+  padding: 0px 20px;
 }
 
 .demo .h--nav-button{
