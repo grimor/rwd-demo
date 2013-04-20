@@ -1,26 +1,19 @@
-.logo {
-	float: left;
-}
-.demo .navigation {
-	padding: 20px 20px;
-}
+.logo { float: none; }
 .menu {
-	float: right;
 	position: relative;
+	float: none;
+	width: 100%;
 }
 .menu ul.h--nav-list {
-	display: block;
-	margin: 0;
+	display:none;
+	margin:0;
+	position: absolute;
+	width: 100%;
+	top:70px;
 }
-
 .menu ul li {
-	float: left;
+	float: none;
 }
-.menu h2 {
-	margin: 0;
-	font-family: 'Exo';
-}
-
 .menu a.menu-button {
 	text-align: left;
 	display: block;
@@ -28,39 +21,61 @@
 	color: white;
 	background: #333333;
 	text-decoration: none;
-	display: none;
+	display: block;
 	top: 0px;
+
 }
 .menu a.menu-button:hover {
 	background: #4d4d4d;
 }
 
+.demo .navigation {
+	padding: 20px 20px;
+}
+
 .features {
 	list-style-type: none;
-}
-.features li {
-	display: block;
-	padding: 10px;
+	overflow: hidden;
+	padding:0;
+	margin: 0;
 }
 
-@media (max-width: 800px) {
-	.logo { float: none; }
+.h--hero-column {
+	display: block;
+	width: 50%;
+	box-sizing: border-box;
+	padding: 20px;
+	float: left;
+}
+
+
+@media (min-width: 800px) {
+	.logo {
+		float: left;
+	}
 	.menu {
+		float: right;
 		position: relative;
-		float: none;
-		width: 100%;
+		width: auto;
+	}
+	.wrapper {
+		width: 1200px;
+		margin: 0px auto;
 	}
 	.menu ul.h--nav-list {
-		display:none;
+		display: block;
 		margin:0;
-		position: absolute;
-		width: 100%;
-		top:70px;
+		position: relative;
+		top:0px;
+	}
+	.menu ul.h--nav-list li {
+		float: left;
+	}
+	.menu h2 {
+		margin: 0;
+		font-family: 'Exo';
+	}
 
-	}
-	.menu ul li {
-		float: none;
-	}
 	.menu a.menu-button {
 		text-align: left;
 		display: block;
@@ -68,11 +83,19 @@
 		color: white;
 		background: #333333;
 		text-decoration: none;
-		display: block;
+		display: none;
 		top: 0px;
-
 	}
 	.menu a.menu-button:hover {
 		background: #4d4d4d;
+	}
+
+	.features li {
+		display: block;
+		padding: 20px;
+		float: left;
+		box-sizing: border-box;
+		width: 33%;
+		text-align: center;
 	}
 }
