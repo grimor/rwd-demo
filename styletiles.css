@@ -1,0 +1,251 @@
+@import url(http://temp.burdach.com/css/normalize.css);
+@import url(http://fonts.googleapis.com/css?family=Exo&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+h1{
+    font-family: 'Exo';
+}
+
+img{
+    display: block;
+}
+
+.demo section{
+    width: 100%;
+    height: 150px;
+}
+
+.demo .h--nav-button{
+    display: inline-block;
+}
+
+.demo .h--nav-list{
+    margin:2em 0;
+    padding:0;
+    list-style: none;
+}
+
+.demo form{
+    margin:100px;
+}
+
+/* SECTIONS */
+
+.h--section--hero {
+  background: #ecf0ef url('http://temp.burdach.com/images/sections/section_hero_bg.jpg') 50% 100% repeat-x;
+}
+
+.h--section--green {
+  background-color: #82a623;
+}
+
+.h--section--white {
+  background: #fff;
+}
+
+.h--section--dark {
+  background: #333333;
+  color: white;
+}
+
+.h--section--silver {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #d4d0cf), color-stop(100%, #bab6b9));
+  background: -webkit-linear-gradient(top, #d4d0cf, #bab6b9);
+  background: -moz-linear-gradient(top, #d4d0cf, #bab6b9);
+  background: -o-linear-gradient(top, #d4d0cf, #bab6b9);
+  background: linear-gradient(top, #d4d0cf, #bab6b9);
+}
+
+/* END SECTIONS */
+
+/* HEADINGS */
+
+.h--hero-heading {
+  font-family: 'Exo';
+  font-size: 4.2em;
+  display: block;
+  margin: 0.3em 0 0.1em 0;
+}
+
+.h--hero-slogan {
+  font-family: 'Exo';
+  font-size: 1.7em;
+  margin: 0.1em 0;
+}
+
+/* END HEADINGS */
+
+/* NAV */
+
+.h--nav-list {
+  z-index: 1;
+}
+
+.h--nav-list a {
+  text-align: left;
+  display: block;
+  padding: 0.8em;
+  color: white;
+  background: #333333;
+  text-decoration: none;
+}
+
+.h--nav-list a:hover {
+  background: #4d4d4d;
+}
+
+/* END NAV */
+
+/* BUTTONS */
+
+.h--green-button {
+  border: 0;
+  display: inline-block;
+  padding: 1em 2em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #82a623;
+  color: white;
+}
+
+.h--green-button:hover {
+  background: #92bb27;
+}
+
+.h--white-button {
+  border: 0;
+  display: inline-block;
+  padding: 1em 2em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: white;
+  color: #82a623;
+}
+
+.h--white-button:hover {
+  background: white;
+}
+
+.h--nav-button{
+  margin:0;
+}
+
+.h--nav-button a{
+  display: block;
+  text-decoration: none;
+  font-size: 0.5em;
+  padding: 1.2em;
+  background: #333333;
+  color: #FFF;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.h--nav-button:hover {
+  background: #404040;
+}
+
+/* END BUTTONS */
+
+/* SLIDER */
+
+.h--slider-nav {
+  text-align: center;
+  list-style: none;
+}
+
+.h--slider-nav li {
+  display: inline-block;
+}
+
+.h--slider-nav li a {
+  display: block;
+  width: 1.5em;
+  height: 1.5em;
+  border: 1px solid #82a623;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.h--slider-nav li a:hover{
+    background:#82a623;
+}
+
+/* END SLIDER */
+
+/* TABLE */
+
+.h--table {
+  text-align: center;
+}
+
+.h--table td, .h--table th {
+  padding: 0.1em 0.2em;
+}
+
+.h--table td {
+  border: 1px solid #d8d7d8;
+}
+
+.h--table th {
+  border: 1px solid white;
+  background: #d8d7d8;
+}
+
+.h--table tbody > tr:nth-child(even) td {
+  background: #f1f1f1;
+}
+
+/* END TABLE */
+
+/* FORM */
+
+.h--form input[type="text"],
+.h--form input[type="tel"],
+.h--form input[type="email"],
+.h--form select,
+.h--form textarea {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.7em;
+  margin: 0.3em 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #333333;
+}
+
+.h--form textarea {
+  min-height: 155px;
+}
+
+/* END FORM */
