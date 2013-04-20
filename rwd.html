@@ -5,6 +5,7 @@
 	<title>Styletiles</title>
 	<link rel="stylesheet" href="styletiles.css">
 	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="fonts/style.css">
 	<title></title>
 </head>
 <body class="demo">
@@ -30,11 +31,11 @@
 		</section>
 		<section class="hero">
 			<div class="wrapper">
-				<div class="h--hero-column">
+				<div class="grid half">
 					<h2 class="h--hero-heading">Vegetables</h1>
 					<h3 class="h--hero-slogan">Slogan</h2>
 				</div>
-				<div class="h--hero-column">
+				<div class="grid half">
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -51,26 +52,32 @@
 		<div class="wrapper">
 			<ul class="features">
 				<li>
+					<span aria-hidden="true" class="icon-pencil"></span>
 					<h2>Lorem</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, nihil id soluta saepe possimus ad vero facilis inventore consequatur amet cumque itaque delectus unde vitae fugiat sequi ipsum minima! Asperiores.</p>
 				</li>
 				<li>
+					<span aria-hidden="true" class="icon-connection"></span>
 					<h2>Happy customers</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, nihil id soluta saepe possimus ad vero facilis inventore consequatur amet cumque itaque delectus unde vitae fugiat sequi ipsum minima! Asperiores.</p>
 				</li>
 				<li>
+					<span aria-hidden="true" class="icon-envelop"></span>
 					<h2>Buy as a gift</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, nihil id soluta saepe possimus ad vero facilis inventore consequatur amet cumque itaque delectus unde vitae fugiat sequi ipsum minima! Asperiores.</p>
 				</li>
 				<li>
+					<span aria-hidden="true" class="icon-keyboard"></span>
 					<h2>Juicy</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, nihil id soluta saepe possimus ad vero facilis inventore consequatur amet cumque itaque delectus unde vitae fugiat sequi ipsum minima! Asperiores.</p>
 				</li>
 				<li>
+					<span aria-hidden="true" class="icon-profile"></span>
 					<h2>Properly collected</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, nihil id soluta saepe possimus ad vero facilis inventore consequatur amet cumque itaque delectus unde vitae fugiat sequi ipsum minima! Asperiores.</p>
 				</li>
 				<li>
+					<span aria-hidden="true" class="icon-pacman"></span>
 					<h2>True statistics</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, nihil id soluta saepe possimus ad vero facilis inventore consequatur amet cumque itaque delectus unde vitae fugiat sequi ipsum minima! Asperiores.</p>
 				</li>
@@ -79,14 +86,14 @@
 	</section>
 
 	<section class="h--section--white">
-	<ul class="slider">
-		<li>
+	<ul class="slider" id="slider">
+		<li class="active">
 			<img src="http://temp.burdach.com/images/slider/slider_slide_1.jpg">
 		</li>
-		<li>
+		<li class="next">
 			<img src="http://temp.burdach.com/images/slider/slider_slide_2.jpg">
 		</li>
-		<li>
+		<li class="next">
 			<img src="http://temp.burdach.com/images/slider/slider_slide_3.jpg">
 		</li>
 	</ul>
@@ -98,7 +105,7 @@
 	</section>
 
 	<section class="h--section--silver">
-		<img src="http://temp.burdach.com/images/sections/section_poster.png">
+		<img src="http://app.resrc.it//temp.burdach.com/images/sections/section_poster.png" width="100%" class="resrc">
 	</section>
 
 	<section class="h--section--white">
@@ -151,6 +158,26 @@
 						<td>Hypervitaminosis A</td>
 						<td>Orange, ripe yellow fruits, leafy vegetables, carrots, pumpkin, squash, spinach, liver</td>
 					</tr>
+					<tr>
+						<th>Vitamin B</th>
+						<td>Retinol, retinal, and four carotenoids including beta carotene</td>
+						<td>Fat</td>
+						<td>900 µg</td>
+						<td>Night-blindness, Hyperkeratosis, and Keratomalacia</td>
+						<td>3,000 µg</td>
+						<td>Hypervitaminosis A</td>
+						<td>Orange, ripe yellow fruits, leafy vegetables, carrots, pumpkin, squash, spinach, liver</td>
+					</tr>
+					<tr>
+						<th>Vitamin C</th>
+						<td>Retinol, retinal, and four carotenoids including beta carotene</td>
+						<td>Fat</td>
+						<td>900 µg</td>
+						<td>Night-blindness, Hyperkeratosis, and Keratomalacia</td>
+						<td>3,000 µg</td>
+						<td>Hypervitaminosis A</td>
+						<td>Orange, ripe yellow fruits, leafy vegetables, carrots, pumpkin, squash, spinach, liver</td>
+					</tr>
 				</tbody>
 			</table>
 		</section>
@@ -166,5 +193,7 @@
 			</form>
 		</footer>
 		<script src="main.js"></script>
+		<script type="text/javascript" src="http://www.resrc.it/resrc.js"></script>
+		<script type="text/javascript">try{resrc.load({locale:"us",bandwidthDetect:true,resrcOnLoad:true,resrcOnResize:true,resrcOnPinch:true,resrcOnDoubleTap:true});}catch(e){}</script>
 	</body>
 	</html>

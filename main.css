@@ -48,7 +48,92 @@
 	float: left;
 }
 
+.grid {
+	box-sizing: border-box;
+	padding: 0 2rem 0 0;
+	float: left;
+}
+.grid.half {
+	width: 50%;
+}
+.grid.one { width: 8.33333%; }
+.grid.two { width: 16.66666%;}
+.grid.three { width: 24.99999% }
+.grid.four { width: }
+.grid.five { width: }
+.grid.six { width: 50%; }
+.grid.seven { width: 58.33333%; }
+.grid.eight { width: }
+.grid.nine { width: }
+.grid.ten { width: }
+.grid.eleven { width: }
+.grid.tweleve { width: 100%; }
 
+.grid.third, .grid.one-third {
+	width: 33.333%;
+}
+.grid.two-third {
+	width: 66.666%;
+}
+.features li span {
+	display: block;
+	background: #3c3c3c;
+	padding: 1em;
+	font-size: 2em;
+	border-radius: 5em;
+	width: 1em;
+	margin: 1em 1em 1em 0em;
+	float: left;
+}
+.slider {
+	position: relative;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	height: 390px;
+}
+.slider li {
+	position: absolute;
+	top:0;
+	left:0;
+	float: left;
+}
+.slider li.next {
+	left: 100%;
+}
+.slider li.active {
+	left: 0%;
+}
+.slider li.prev {
+	left: -100%;
+}
+.slider img {
+
+}
+.h--table { display: block; position: relative; width: 100%;}
+.h--table thead {
+	float: left;
+	display: block;
+}
+.h--table thead tr th {
+	display:block;
+}
+.h--table tbody {
+	overflow-x: scroll;
+	overflow-y: hidden;
+	display: block;
+	white-space: nowrap;
+}
+.h--table tbody tr {
+	display: inline-block;
+}
+.h--table tbody tr td {
+	width: 100%;
+	display: block;
+	float: left;
+}
+.h--table tbody th {}
 @media (min-width: 800px) {
 	.logo {
 		float: left;
@@ -59,7 +144,7 @@
 		width: auto;
 	}
 	.wrapper {
-		width: 1200px;
+		width: 1000px;
 		margin: 0px auto;
 	}
 	.menu ul.h--nav-list {
@@ -98,4 +183,19 @@
 		width: 33%;
 		text-align: center;
 	}
+	.features li span {
+		display: block;
+		background: #3c3c3c;
+		padding: 1em;
+		font-size: 2em;
+		border-radius: 5em;
+		width: 1em;
+		margin: 0px auto;
+		float: none;
+	}
+
+}
+
+@media (min-width: 800px) {
+
 }

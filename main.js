@@ -9,4 +9,16 @@
 			list.style.display = 'block';
 		}
 	})
+
+	var slider = document.getElementById('slider');
+	var slides = slider.getElementsByTagName('li');
+	var sliderNav = document.getElementsByClassName('h--slider-nav')[0].getElementsByTagName('a');
+
+	for(var i=0; i<sliderNav.length; i++){
+		var slide = slides[i];
+		sliderNav[i].addEventListener('click', function(e) {
+			e.preventDefault();
+			console.dir(slide);
+		}, false);
+	}
 })();
